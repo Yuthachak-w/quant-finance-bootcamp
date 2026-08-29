@@ -8,7 +8,5 @@ elif net_income <= 300000:
 else:
 	tax_rate = 0.10
 	tax_payable = ((300000 - 150000) * 0.05) + ((net_income - 300000) * tax_rate)
-print("อัตราภาษีฐานสูงสุดของคุณคือ:")
-print(tax_rate * 100)
-print("ยอดภาษีรวมที่ต้องจ่าย (บาท):")
-print(tax_payable)
+print("อัตราภาษีฐานสูงสุดของคุณคือ:", tax_rate = 100, "%")
+print("ยอดภาษีรวมที่ต้องจ่าย:, tax_payable, "บาท")
