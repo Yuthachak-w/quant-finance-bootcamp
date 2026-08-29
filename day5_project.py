@@ -1,5 +1,5 @@
-
-	def _init_(self, customer_name, stock_prices, gold_prices):
+class PortfolioEngine:
+	def __init__(self, customer_name, stock_prices, gold_prices):
 		self.name = customer_name
 		self.stocks = stock_prices
 		self.gold = gold_prices
